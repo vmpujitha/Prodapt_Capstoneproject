@@ -1,0 +1,27 @@
+{
+  "yield_model": {
+    "mae": 12.1379,
+    "rmse": 177.9867,
+    "r2": 0.9566,
+    "r2_log_scale": 0.9395,
+    "median_abs_pct_error": 22.58,
+    "interval_coverage_10_90": 0.8,
+    "train_samples": 15335,
+    "test_samples": 4260,
+    "split": "time-aware: train < 2016, test >= 2016",
+    "target_transform": "log1p",
+    "model_type": "GradientBoosting",
+    "trained_on": "real_kaggle_dataset"
+  },
+  "risk_model": {
+    "accuracy": 0.8556,
+    "roc_auc": 0.831,
+    "brier_score": 0.1065,
+    "test_positive_rate": 0.1634,
+    "train_samples": 15335,
+    "test_samples": 4260,
+    "split": "time-aware: train < 2016, test >= 2016",
+    "model_type": "GradientBoosting + isotonic calibration",
+    "trained_on": "real_kaggle_dataset"
+  }
+}

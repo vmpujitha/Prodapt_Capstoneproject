@@ -1,0 +1,247 @@
+[
+  {
+    "id": "GOLD-001",
+    "scenario": "similar_conditions_recommendation",
+    "query": "Which crops do well in Punjab during Kharif with N around 90, P 40, K 40, pH 6.5 and about 1200 mm rainfall?",
+    "expected_crops": [
+      "Rice",
+      "Cotton"
+    ],
+    "state": "Punjab",
+    "season": "Kharif"
+  },
+  {
+    "id": "GOLD-002",
+    "scenario": "similar_conditions_recommendation",
+    "query": "Best crops for Haryana in Rabi season with cool temperature around 18°C, low rainfall 300mm, and neutral soil pH 7.0?",
+    "expected_crops": [
+      "Wheat",
+      "Mustard",
+      "Chickpea"
+    ],
+    "state": "Haryana",
+    "season": "Rabi"
+  },
+  {
+    "id": "GOLD-003",
+    "scenario": "similar_conditions_recommendation",
+    "query": "Recommend crops for Karnataka Kharif with moderate temperature 24°C, 650 mm rainfall and medium NPK.",
+    "expected_crops": [
+      "Maize",
+      "Groundnut",
+      "Bajra",
+      "Jowar",
+      "Ragi",
+      "Small Millets"
+    ],
+    "state": "Karnataka",
+    "season": "Kharif"
+  },
+  {
+    "id": "GOLD-004",
+    "scenario": "similar_conditions_recommendation",
+    "query": "High rainfall area in West Bengal during Kharif with 1400mm rain, 28°C temp, and 85% humidity. What should I grow?",
+    "expected_crops": [
+      "Rice"
+    ],
+    "state": "West Bengal",
+    "season": "Kharif"
+  },
+  {
+    "id": "GOLD-005",
+    "scenario": "similar_conditions_recommendation",
+    "query": "Arid region in Rajasthan with alkaline pH 7.8, low nitrogen N=45, low rainfall 350mm in Kharif.",
+    "expected_crops": [
+      "Bajra",
+      "Jowar",
+      "Ragi",
+      "Small Millets",
+      "Groundnut"
+    ],
+    "state": "Rajasthan",
+    "season": "Kharif",
+    "note": "Rajasthan is not in the Kaggle dataset; this checks behaviour for a state without historical coverage."
+  },
+  {
+    "id": "GOLD-006",
+    "scenario": "similar_conditions_recommendation",
+    "query": "Sugarcane suitability in Maharashtra with high irrigation, N 160, P 70, K 80 and warm climate 30°C.",
+    "expected_crops": [
+      "Sugarcane"
+    ],
+    "state": "Maharashtra",
+    "season": "Whole Year"
+  },
+  {
+    "id": "GOLD-007",
+    "scenario": "similar_conditions_recommendation",
+    "query": "Madhya Pradesh black soil in Kharif with 800mm rain, pH 6.8, seeking high protein pulse or oilseed.",
+    "expected_crops": [
+      "Soybean",
+      "Maize"
+    ],
+    "state": "Madhya Pradesh",
+    "season": "Kharif"
+  },
+  {
+    "id": "GOLD-008",
+    "scenario": "similar_conditions_recommendation",
+    "query": "Gujarat coastal alluvial soil with warm temperature 28°C, moderate rainfall 700mm, alkaline soil pH 7.4 in Kharif.",
+    "expected_crops": [
+      "Cotton",
+      "Groundnut"
+    ],
+    "state": "Gujarat",
+    "season": "Kharif"
+  },
+  {
+    "id": "GOLD-009",
+    "scenario": "similar_conditions_recommendation",
+    "query": "Uttar Pradesh alluvial plains in Rabi season with cool weather 19°C, N 105, P 50, K 45, pH 6.8.",
+    "expected_crops": [
+      "Wheat",
+      "Mustard",
+      "Chickpea"
+    ],
+    "state": "Uttar Pradesh",
+    "season": "Rabi"
+  },
+  {
+    "id": "GOLD-010",
+    "scenario": "similar_conditions_recommendation",
+    "query": "Tamil Nadu delta zone with 1250mm annual rain, tropical warmth 28°C, clay loam soil.",
+    "expected_crops": [
+      "Rice",
+      "Sugarcane"
+    ],
+    "state": "Tamil Nadu",
+    "season": "Whole Year"
+  },
+  {
+    "id": "GOLD-011",
+    "scenario": "yield_gap_explanation",
+    "query": "Why did my rice yield drop from 3.5 t/ha to 2.1 t/ha in Punjab despite applying standard fertilizer?",
+    "expected_crops": [
+      "Rice"
+    ],
+    "state": "Punjab",
+    "season": "Kharif"
+  },
+  {
+    "id": "GOLD-012",
+    "scenario": "yield_gap_explanation",
+    "query": "Explain the yield difference between Farm A getting 4.2 t/ha wheat and Farm B getting 2.8 t/ha in Haryana.",
+    "expected_crops": [
+      "Wheat"
+    ],
+    "state": "Haryana",
+    "season": "Rabi"
+  },
+  {
+    "id": "GOLD-013",
+    "scenario": "yield_gap_explanation",
+    "query": "Why does maize yield vary significantly between Karnataka and Bihar during Kharif season?",
+    "expected_crops": [
+      "Maize"
+    ],
+    "state": "Karnataka",
+    "season": "Kharif"
+  },
+  {
+    "id": "GOLD-014",
+    "scenario": "yield_gap_explanation",
+    "query": "Cotton yield gap analysis in Gujarat: factors causing productivity to lag below 1.5 t/ha.",
+    "expected_crops": [
+      "Cotton"
+    ],
+    "state": "Gujarat",
+    "season": "Kharif"
+  },
+  {
+    "id": "GOLD-015",
+    "scenario": "yield_gap_explanation",
+    "query": "What causes soybean yield deficit in Madhya Pradesh under erratic rainfall conditions?",
+    "expected_crops": [
+      "Soybean"
+    ],
+    "state": "Madhya Pradesh",
+    "season": "Kharif"
+  },
+  {
+    "id": "GOLD-016",
+    "scenario": "yield_gap_explanation",
+    "query": "Why is sugarcane yield 80 t/ha in Western Maharashtra but only 55 t/ha in drought-prone areas?",
+    "expected_crops": [
+      "Sugarcane"
+    ],
+    "state": "Maharashtra",
+    "season": "Whole Year"
+  },
+  {
+    "id": "GOLD-017",
+    "scenario": "alternative_crop_selection",
+    "query": "I cannot grow rice this Kharif due to water shortage in Punjab. What alternative lower-water crops can I plant?",
+    "expected_crops": [
+      "Maize",
+      "Cotton",
+      "Bajra",
+      "Jowar",
+      "Ragi",
+      "Small Millets"
+    ],
+    "state": "Punjab",
+    "season": "Kharif"
+  },
+  {
+    "id": "GOLD-018",
+    "scenario": "alternative_crop_selection",
+    "query": "Alternative crops to wheat in Madhya Pradesh for Rabi season with less irrigation required.",
+    "expected_crops": [
+      "Chickpea",
+      "Mustard"
+    ],
+    "state": "Madhya Pradesh",
+    "season": "Rabi"
+  },
+  {
+    "id": "GOLD-019",
+    "scenario": "alternative_crop_selection",
+    "query": "Substitute crop for cotton in Maharashtra when pest pressure or delayed monsoon makes cotton risky.",
+    "expected_crops": [
+      "Soybean",
+      "Bajra",
+      "Jowar",
+      "Ragi",
+      "Small Millets",
+      "Maize"
+    ],
+    "state": "Maharashtra",
+    "season": "Kharif"
+  },
+  {
+    "id": "GOLD-020",
+    "scenario": "alternative_crop_selection",
+    "query": "Short-duration or resilient alternatives to groundnut in dry areas of Gujarat.",
+    "expected_crops": [
+      "Bajra",
+      "Jowar",
+      "Ragi",
+      "Small Millets",
+      "Chickpea"
+    ],
+    "state": "Gujarat",
+    "season": "Kharif"
+  },
+  {
+    "id": "GOLD-021",
+    "scenario": "alternative_crop_selection",
+    "query": "Profitable crop alternatives to mustard in Rajasthan for soil with pH 7.5 and limited winter rain.",
+    "expected_crops": [
+      "Chickpea",
+      "Wheat"
+    ],
+    "state": "Rajasthan",
+    "season": "Rabi",
+    "note": "Rajasthan is not in the Kaggle dataset; this checks behaviour for a state without historical coverage."
+  }
+]

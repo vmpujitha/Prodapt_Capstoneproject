@@ -1,0 +1,38 @@
+# Versions pinned to the set verified together (pytest, server start, end-to-end calls).
+# API
+fastapi==0.142.2
+uvicorn==0.54.0
+pydantic==2.13.5
+pydantic-settings==2.15.0
+httpx==0.28.1
+
+# LLM orchestration
+langchain==1.4.3
+langchain-core==1.6.7
+langchain-community==0.4.2
+langchain-openai==1.6.7
+langchain-ollama==1.1.0
+langchain-chroma==1.1.0
+langgraph==1.2.14
+
+# Retrieval
+chromadb==1.5.9
+rank-bm25==0.2.2
+
+# Data & ML
+pandas==3.0.6
+numpy==2.5.3
+pyarrow==25.0.1
+scikit-learn==1.9.1
+xgboost==3.4.1
+joblib==1.6.0
+
+# Feedback storage
+SQLAlchemy==2.1.3
+
+# Evaluation
+deepeval==4.2.8
+
+# Tooling (architecture diagram, tests)
+matplotlib==3.11.2
+pytest==9.1.1
